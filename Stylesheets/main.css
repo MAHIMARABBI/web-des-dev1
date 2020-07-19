@@ -1,0 +1,167 @@
+body
+{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header
+{
+	display: block;
+	width: 100%;
+	padding: 1vw;
+	z-index: 99;
+}
+
+.logo
+{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 6vw;
+	border-radius: 50%;
+	border: 5px solid #2400A1;
+	box-shadow: 1px 1px 5px 3px #1D1D1D;
+}
+
+.title
+{
+    font-family: PoetsenOne;
+    font-size: 2vw;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #2400A1, #5000E5);
+    padding: 0.8vw 2vw;
+    margin-left: -1.2vw;
+    border-bottom-right-radius: 3vw;
+    border-top-right-radius: 0vw;
+	letter-spacing: 0.4vw;
+}
+
+.subtitle
+{
+	display: block;
+	font-family: Script MT;
+	font-size: 1.5vw;
+	color: #2800A7;
+	margin: 0 auto;
+	margin-top: -10px;
+	width: 20%;
+	text-align: center;
+	border: 3px groove#000000;
+	padding: 0.5vw 1vw;
+	border-radius: 50px;
+}
+
+.navbar
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 33%;
+	text-align: center;
+}
+
+.navbar a
+{
+	text-transform: uppercase;
+	font-family: Kiona;
+	font-weight: bold;
+	font-size: 1.1vw;
+	text-decoration: none;
+	color: #000000;
+	padding: 0.5vw 1vw;
+	border-bottom: 3px solid #FFFFFF;
+	border-radius: 3px;
+	margin: 0 0.2vw;
+}
+
+.navbar a:hover
+{
+	cursor: pointer;
+	border-bottom: 3px solid #2A00AA;
+	transition: 0.2s;
+}
+
+.navbar a:last-child
+{
+	background: #2800A7;
+	color: #FFFFFF;
+	border-radius: 5vw;
+	border: none;
+	padding-top: 0.8vw;
+	padding-bottom: 0.8vw;
+	padding-left: 0vw;
+	padding-right: 2.2vw;
+	transition: 0.2s;
+}
+
+.navbar a:last-child:hover
+{
+	padding-left: 1vw;
+	padding-right: 1.2vw;
+}
+
+.navbar a:last-child:hover .bullet
+{
+	opacity: 100;
+}
+
+.bullet
+{
+	opacity: 0;
+	border-radius: 50%;
+	background: #8762FF;
+	padding: 0.3vw 0.5vw;
+	margin-left: -3px;
+	margin-right: 5px;
+	transition: 0.2s;
+}
+
+
+.tourTitle
+{
+	display: inline-block;
+	font-family: Bebas Neue;
+	font-size: 1.9vw;
+	letter-spacing: 3px;
+	color: #2800A7;
+}
+
+.tourDuration
+{
+	margin-left: 1vw;
+	font-family: Script MT;
+	font-size: 1.7vw;
+	color: #000000;
+}
+
+.tourDuration:before
+{
+	content: "";
+	background-image: url("../Images/duration_icon.png");
+    background-size: 1.5vw 1.5vw;
+    display: inline-block;
+    width: 1.5vw; 
+    height: 1.5vw;
+	margin-right: 0.4vw;
+}
+
+.tourPrice
+{
+	margin-left: 1vw;
+	font-family: Arial;
+	font-size: 1.4vw;
+	color: #000000;;
+}
+
+.tourPrice:before
+{
+	content: "";
+	background-image: url("../Images/price_icon.png");
+    background-size: 1.5vw 1.5vw;
+    display: inline-block;
+    width: 1.5vw; 
+    height: 1.5vw;
+	margin-right: 0.7vw;
+}

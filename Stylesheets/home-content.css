@@ -1,0 +1,295 @@
+.about-section
+{
+	width: 23vw;
+	position: absolute;
+	right: 8vw;
+	margin-top: 5vw;
+	border-radius: 15px;
+	box-shadow: 0px 0px 12px 5px #7A7A7A;
+}
+
+.docTitle
+{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    font-family: Arial;
+    font-weight: Bold;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    background: #2800A7;
+    padding: .5vw .5vw;
+    text-align: center;
+    /* [disabled]border-bottom-left-radius: 10px; */
+    /* [disabled]border-bottom-right-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.docDetails
+{
+	font-family: TW Cen MT;
+	text-align: justify;
+	padding: 2vw 1vw;
+	background: #EBEBEB;
+	font-size: 1.3vw;
+	border-radius: 15px;
+}
+
+.team
+{
+	position: relative;
+	margin-top: 4vw;
+	width: 55vw;
+	margin-left: 2vw;
+}
+
+.teamTitle
+{
+	font-family: PoetsenOne;
+	font-size: 2vw;
+	width: auto;
+	padding-bottom: 0.5vw;;
+	border-bottom: 5px solid #2800A7;
+}
+
+.wrapper
+{
+	display: inline-block;
+	margin: 0 1vw;
+	margin-top: 1vw;
+	width: auto;
+	max-width: 11.4vw;
+}
+
+.wrapper img
+{
+	display: block;
+	width: 10vw;
+	border: 4px solid #6500A0;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.name
+{
+	background: #2800A7;
+	padding: .7vw .7vw;
+	font-family: Arial;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.95vw;
+	text-align: center;
+	border-radius: 15px;
+	margin-top: 0.5vw;
+}
+
+.position
+{
+	font-family: TW Cen MT Bold;
+	font-size: 1.7vw;
+	width: auto;
+	text-align: center;
+	margin-top: 0.4vw;;
+}
+
+.review
+{
+	width: 23vw;
+	position: absolute;
+	right: 8vw;
+	margin: 0.5vw auto;
+	box-shadow: 0px 0px 12px 5px #7A7A7A;
+	font-family: Lato;
+	background: #EBEBEB;
+	border-radius: 15px;
+}
+
+.point
+{
+	display: block;
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Bebas Neue;
+	font-size: 5vw;
+}
+
+.star
+{
+	font-size: 3vw;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	color: #827500;
+}
+
+.star span
+{
+	color: #000000;
+}
+
+.side
+{
+  	float: left;
+	text-align: center;
+  	width: 15%;
+  	margin-top: 10px;
+}
+
+.middle
+{
+  	float: left;
+  	width: 70%;
+  	margin-top: 10px;
+}
+
+.right
+{
+  	text-align: left;
+}
+
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.bar-container {
+  	width: 95%;
+  	background-color: #FFFFFF;
+  	text-align: center;
+  	color: white;
+	border-radius: 10px;
+}
+
+.bar-5 {width: 60%; height: 10px; background-color: #4CAF50; border-radius: 20px;}
+.bar-4 {width: 30%; height: 10px; background-color: #2196F3; border-radius: 20px;}
+.bar-3 {width: 12%; height: 10px; background-color: #00bcd4; border-radius: 20px;}
+.bar-2 {width: 6%; height: 10px; background-color: #ff9800; border-radius: 20px;}
+.bar-1 {width: 15%; height: 10px; background-color: #f44336; border-radius: 20px;}
+
+#reviewExpand
+{
+	display: block;
+	width: 23vw;
+	margin: 0.6vw auto;
+	font-family: Arial;
+	font-weight: bold;
+	border: none;
+	background: none;
+	color: #2800A7;
+	font-size: 1.2vw;
+	text-transform: none;
+	cursor: pointer;
+}
+
+#reviewExpand:after
+{
+	content: " \25BC";
+}
+
+#reviewDetail
+{
+	width: 90%;
+	margin: 0.5vw auto;
+	transition: 0.3s;
+	height: 0vw;
+	overflow: hidden;
+}
+
+.reviewer
+{
+	font-family: Lato;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2vw;
+	margin: 0.3vw 0;
+}
+
+.reviewText
+{
+	font-family: Lato-Light;
+	font-weight: normal;
+	font-size: 1.1vw;
+	text-align: justify;
+}
+
+.trendingTours
+{
+	display: block;
+	margin-left: 2vw;
+	margin-top: 4vw;
+}
+
+.trendingTours a
+{
+	text-decoration: none;
+	border: 1px solid #474747;
+}
+
+.trendingTours a:hover
+{
+	box-shadow: 0px 0px 15px 5px #4F4F4F;
+	transform: scale(1.02);
+	transition: 0.4s;
+	border: none;
+}
+
+.divTitle
+{
+	font-family: PoetsenOne;
+	font-size: 2vw;
+}
+
+.tours-sajek
+{
+	margin: 1vw 1vw;
+	display: block;
+	width: 50vw;
+	background-image: url("../Images/sajek_bg.jpg");
+	background-size: 25vw 10vw;
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 0vw 0vw;
+	border-radius: 10px;
+}
+
+.tours-rangamati
+{
+	margin: 1vw 1vw;
+	display: block;
+	width: 50vw;
+	background-image: url("../Images/rangamati_bg.jpg");
+	background-size: 25vw 10vw;
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 0vw 0vw;
+	border-radius: 10px;
+}
+
+.tours-coxsbazar
+{
+	margin: 1vw 1vw;
+	display: block;
+	width: 50vw;
+	background-image: url("../Images/coxsbazar_bg.jpg");
+	background-size: 25vw 10vw;
+	background-position: right;
+	background-repeat: no-repeat;
+	padding: 0vw 0vw;
+	border-radius: 10px;
+}
+
+.tour-wrapper
+{
+	background: linear-gradient(to right, rgba(255,255,255,1.00) 80%, rgba(255,255,255,0.00));
+	width: 32vw;
+	padding: 1.5vw 1.5vw;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}

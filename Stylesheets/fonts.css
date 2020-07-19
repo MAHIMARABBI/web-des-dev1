@@ -1,0 +1,71 @@
+@font-face
+{
+	font-family: 'Lato-Light';
+	src: url("../Fonts/lato/Lato-Light.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Lato';
+	src: url("../Fonts/lato/Lato-Regular.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Lato-Bold';
+	src: url("../Fonts/lato/Lato-Bold.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Tw Cen MT';
+	src: url("../Fonts/Tw Cen MT/TCM_____.TTF") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Tw Cen MT Bold';
+	src: url("../Fonts/Tw Cen MT/TCB_____.TTF") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Script MT';
+	src: url("../Fonts/Script MT Bold/SCRIPTBL.TTF") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'PoetsenOne';
+	src: url("../Fonts/PoetsenOne/PoetsenOne-Regular.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Kiona';
+	src: url("../Fonts/Kiona/Kiona-Regular.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Bebas Neue';
+	src: url("../Fonts/Bebas Neue/BebasNeue-Regular.otf") format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}

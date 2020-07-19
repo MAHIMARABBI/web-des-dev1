@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> VROMON | Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Stylesheets/main.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets/home-content.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets/fonts.css">
+	<link rel="stylesheet" type="text/css" href="Stylesheets/slideshow.css">
+	<link rel="icon" href="Images/logo.jpg" type="image/jpg" sizes="16x16">
+	<script src="Scripts/slideshow.js"></script>
+	<script src="Scripts/expand.js"></script>
+	
+</head>
+<body onLoad="showSlides()">
+	<div class="header">
+		<a href="home.html">
+		<img class="logo" src="Images/logo.jpg" alt="logo">
+		</a>
+		<div class="title">
+			VROMON
+		</div>
+		<div class="navbar">
+			<a href="gallery.php">Gallery</a>
+			<a href="#">Services</a>
+			<a href="#">About Us</a>
+			<a href="tour_booking.php">
+				<span class="bullet">&#10004;</span>
+				Book a trip
+			</a>
+		</div>
+	</div>
+	<div class="subtitle">Let Your Soul Explore</div>
+	<div class="slideshow-container">
+	<br/>
+	  <div class="slides fade">
+		<img src="Images/Slideshow/Sajek.jpg" alt="image_1">
+	  </div>
+
+	  <div class="slides fade">
+		<img src="Images/Slideshow/Lalbagh.jpg" alt="image_2">
+	  </div>
+
+	  <div class="slides fade">
+		<img src="Images/Slideshow/coxs bajar.jpg" alt="image_3">
+	  </div>
+	</div>
+	<div class="about-section">
+		<div class="docTitle">Who are we</div>
+		<div class="docDetails">
+			VROMON is one of the leading tourists agency oparating in Bangadesh. Started in 2020, it has already organised a total of 1200 tours. It arranges approximately 500 tours per year.
+		</div>
+	</div>
+	<div class="team">
+		<div class="teamTitle">Meet Our Professional Team</div>
+		<div class="teamDetail">
+			<div class="wrapper">
+				<img src="Images/demo.jpg" alt="team member">
+				<div class="name">Umma Tania Arafin</div>
+				<div class="position">Founder</div>
+			</div>
+			<div class="wrapper">
+				<img src="Images/demo.jpg" alt="team member">
+				<div class="name">Umma Tania Arafin</div>
+				<div class="position">Co-Founder</div>
+			</div>
+			<div class="wrapper">
+				<img src="Images/demo.jpg" alt="team member">
+				<div class="name">Umma Tania Arafin</div>
+				<div class="position">Director</div>
+			</div>
+			<div class="wrapper">
+				<img src="Images/demo.jpg" alt="team member">
+				<div class="name">Umma Tania Arafin</div>
+				<div class="position">Sr. Executive</div>
+			</div>
+		</div>
+	</div>
+	<div class="review">
+		<div class="docTitle">Client Review</div>
+			<div class="point">4.7</div>
+			<div class="star">
+				&#9733 &#9733 &#9733 &#9733 <span>&#9733</span>
+			</div>
+			<div class="row">
+			  <div class="side">
+				<div>5</div>
+			  </div>
+			  <div class="middle">
+				<div class="bar-container">
+				  <div class="bar-5"></div>
+				</div>
+			  </div>
+			  <div class="side right">
+				<div>(150)</div>
+			  </div>
+			  <div class="side">
+				<div>4</div>
+			  </div>
+			  <div class="middle">
+				<div class="bar-container">
+				  <div class="bar-4"></div>
+				</div>
+			  </div>
+			  <div class="side right">
+				<div>(63)</div>
+			  </div>
+			  <div class="side">
+				<div>3</div>
+			  </div>
+			  <div class="middle">
+				<div class="bar-container">
+				  <div class="bar-3"></div>
+				</div>
+			  </div>
+			  <div class="side right">
+				<div>(15)</div>
+			  </div>
+			  <div class="side">
+				<div>2</div>
+			  </div>
+			  <div class="middle">
+				<div class="bar-container">
+				  <div class="bar-2"></div>
+				</div>
+			  </div>
+			  <div class="side right">
+				<div>(6)</div>
+			  </div>
+			  <div class="side">
+				<div>1</div>
+			  </div>
+			  <div class="middle">
+				<div class="bar-container">
+				  <div class="bar-1"></div>
+				</div>
+			  </div>
+			  <div class="side right">
+				<div>(20)</div>
+			  </div>
+			</div>
+			<button id="reviewExpand" onclick="reviewExpand()">See Detailed Review</button>
+			<div id="reviewDetail">
+				<div class="reviewer">Anonymous</div>
+				<div class="reviewText">Had a great time with them. They are one of the best travel agency in Bangladesh. Best time management. Totally satisfied.</div>
+				<div class="reviewer">Anonymous</div>
+				<div class="reviewText">Excellent service provided by the vromon team. I will recommend them to anyone who is looking to break away from the monotonous life of the city.</div>
+				<div class="reviewer">Anonymous</div>
+				<div class="reviewText">They are very much professional. Had my first India tour with them; to the point approach and experienced handling resulted in zero wastage of time in both border side formalities.</div>
+			</div>
+	</div>
+	<div class="trendingTours">
+		<div class="divTitle">Trending Tours</div>
+		<a class="tours-sajek" href="#">
+			<div class="tour-wrapper">
+				<div class="tourTitle">Dhaka to Sajek</div>
+				<div class="tourDuration">
+					2 Days 3 Nights
+				</div>
+				<div class="tourPrice">4000 BDT Only</div>
+			</div>
+		</a>
+		<a class="tours-rangamati" href="#">
+			<div class="tour-wrapper">
+				<div class="tourTitle">Dhaka to Rangamati</div>
+				<div class="tourDuration">
+					2 Days 2 Nights
+				</div>
+				<div class="tourPrice">3000 BDT Only</div>
+			</div>
+		</a>
+		<a class="tours-coxsbazar" href="#">
+			<div class="tour-wrapper">
+				<div class="tourTitle">Dhaka to Cox's Bazar</div>
+				<div class="tourDuration">
+					3 Days 4 Nights
+				</div>
+				<div class="tourPrice">7000 BDT Only</div>
+			</div>
+		</a>
+	</div>
+</body>
+</html>

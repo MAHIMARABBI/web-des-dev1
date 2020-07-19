@@ -1,0 +1,379 @@
+.pageTitle
+{
+	display: block;
+	font-family: PoetsenOne;
+	font-size: 2vw;
+	color: #2800A7;
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+}
+
+#tourBookForm
+{
+	display: inline-block;
+	width: 33vw;
+	margin: 2vw 0;
+	background: #BCBCBC;
+	border-radius: 15px;
+	position: absolute;
+}
+
+.steps
+{
+	display: block;
+	width: auto;
+	background: #D8D8D8;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.steps div
+{
+	text-align: center;
+	display: inline-block;
+	width: 43%;
+	padding: 1vw 1vw;
+	font-family: Bebas Neue;
+	font-size: 1.5vw;
+}
+
+#personal
+{
+	color: #000000;
+	border-bottom: 5px solid #2800A7;
+	border-top: 5px solid #D8D8D8;
+	border-top-left-radius: 15px;
+	transition: 0.3s;
+}
+
+#payment
+{
+	color: #929292;
+	border-left: 1px groove #6C6C6C;
+	border-bottom: 5px solid #D8D8D8;
+	transition: 0.3s;
+}
+
+#formPersonal
+{
+	display: block;
+	padding: 1vw 3vw;
+}
+
+#formPayment
+{
+	display: none;
+	padding: 1vw 3vw;
+}
+
+#formFinal
+{
+	display: block;
+	padding: 1vw 3vw;
+	font-family: Lato;
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+#formFinal a
+{
+	display: block;
+	margin: 1vw auto;
+	background: #333333;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1vw;
+	color: #FFFFFF;
+	padding: 0.7vw 2vw;
+	text-decoration: none;
+	border-radius: 20px;
+	width: 15vw;
+	border: 3px solid #FFFFFF;
+	transition: 0.2s ease;
+	text-transform: uppercase;
+}
+
+#formFinal a:hover
+{
+	background: #FFFFFF;
+	border: 3px solid #333333;
+	color: #333333;
+	transform: scale(1.05);
+	letter-spacing: 2px;
+}
+
+
+.congrats
+{
+	font-family: Bebas Neue;
+	font-size: 3vw;
+	color: #2800A7;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 2vw 0;
+}
+
+.user_id
+{
+	font-family: Bebas Neue;
+	font-size: 4vw;
+	color: #2800A7;
+	letter-spacing: 2px;
+	display: block;
+	margin: 1vw 0;
+}
+
+.inputName
+{
+	font-family: Arial;
+	font-weight: Bold;
+	font-size: 1vw;
+	padding: 2px 2px;
+	margin-top: 1vw;
+}
+
+.inputField
+{
+	display: block;
+	font-family: Arial;
+	background: #E0E0E0;
+	border: none;
+	border-radius: 5px;
+	width: 97%;
+	margin: 0 auto;
+	padding: 0.3vw 0.3vw;
+	border: 3px solid #BCBCBC;
+	transition: 0.2s;
+}
+
+.inputField:hover
+{
+	border: 3px solid #2800A7;
+}
+
+form label
+{
+	font-family: Arial;
+	font-weight: Bold;
+	font-size: 1vw;
+}
+
+#blood_group
+{
+	font-family: Lato-Light;
+	font-size: 1vw;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#transport
+{
+	font-family: Lato-Light;
+	font-size: 1vw;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.next, .previous
+{
+	border: none;
+	font-family: Lato;
+	font-size: 0.9vw; 
+	cursor: pointer;
+	background: #2800A7;
+	color: #FFFFFF;
+	display: inline-block;
+	width: 9.3vw;
+	padding: 0.5vw 0vw;
+	border-radius: 5vw;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 1vw 0;
+	
+}
+
+.label
+{
+	display: inline-block;
+	font-family: Lato;
+	font-size: 0.9vw;
+	transition: 0.2s;
+}
+
+/*
+.icon
+{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.2vw;
+    background: #FFFFFF;
+    color: #000000;
+    padding-right: 0.4vw;
+    padding-left: 0.4vw;
+    padding-bottom: 0.15vw;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 0vw;
+	opacity: 0;
+	transition: 0.2s;
+}
+*/
+
+.tourSection
+{
+	display: inline-block;
+	width: 50vw;
+	margin-top: 1vw;
+	margin-left: 36vw;
+}
+
+.docTitle
+{
+	font-family: Lato-Bold;
+	font-size: 1.5vw;
+	padding: 1vw 1vw;
+	border-bottom: 5px solid #2800A7;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+#tourSearch
+{
+	border-radius: 20px;
+	padding: 0.5vw 1vw;
+	font-family: Lato-Light;
+	font-size: 1vw;
+	width: 30vw;
+	display: block;
+	margin: 1vw auto;
+	border: 2px solid #939393;
+}
+
+.tours
+{
+	background: #FFFFFF;
+	border: 2px solid #6800FB;
+	border-radius: 15px;
+	padding: 1vw 1vw;
+	overflow-y: hidden;
+	margin: 1vw 0;
+}
+
+.bookBtn
+{
+	display: inline;
+	margin-left: 27vw;
+	background: #4D00E1;
+	border: none;
+	text-transform: uppercase;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 1vw;
+	color: #FFFFFF;
+	padding: 0.5vw 1vw;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: 0.2s ease;
+	border: 2px solid #FFFFFF;
+}
+
+.bookBtn:hover
+{
+	background: #D7D7D7;
+	color: #000000;
+	border: 2px solid #000000;
+}
+
+.showDetails
+{
+	margin-top: 1vw;
+	display: block;
+	font-family: Arial;
+	font-size: 1vw;
+	padding: 0.6vw 0.6vw;
+	font-weight: bold;
+	cursor: pointer;
+	background: #DCDCDC;
+	border-radius: 15px;
+	height: 1vw;
+	overflow-y: hidden;
+	transition: 0.2s;
+}
+
+.showDetails:hover
+{
+	height: 13vw;
+}
+
+.tourDetails
+{
+	font-family: Arial;
+	font-size: 1vw;
+	font-weight: bold;
+	text-align: justify;
+	padding: 0.5vw 0.5vw;
+}
+
+.tourDetails a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.tourID
+{
+	background: #1F84FF;
+	color: #FFFFFF;
+	border-radius: 5px;
+	padding: 2px 2px;
+	font-family: Tw Cen MT Bold;
+	font-size: 1.15vw;
+	text-align: center;
+	width: 8vw;
+	display: inline-block;
+	float: right;
+}
+
+#price, #totalPrice
+{
+	font-family: Bebas Neue;
+	font-size: 2vw;
+	color: #000000;
+}
+
+.promo
+{
+	margin: 1vw 0;
+	font-family: Lato-Bold;
+	font-size: 1vw;
+	color: #1D71C5;
+	font-style: italic;
+	cursor: pointer;
+}
+
+#noPromo
+{
+	font-family: Lato-Bold;
+	font-size: 1vw;
+	color: #D71717;
+	display: none;
+}
+
+#promo
+{
+	display: none;
+	margin-bottom: 0;
+}
+
+#promos
+{
+	margin-top: -1vw;
+	position: absolute;
+	z-index: -1;
+}

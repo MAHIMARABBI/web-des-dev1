@@ -1,0 +1,70 @@
+.pageTitle
+{
+	display: block;
+	font-family: PoetsenOne;
+	font-size: 2vw;
+	color: #2800A7;
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+}
+
+.wrapper
+{
+	display: inline-block;
+	width: 25vw;
+	overflow: hidden;
+	border-radius: 15px;
+	height: 15vw;
+	cursor: pointer;
+	transition: 0.2s;
+	margin: 1vw 2vw;
+}
+
+.wrapper img
+{
+	display: block;
+	width: 25vw;
+}
+
+.details
+{
+	display: block;
+	position: relative;
+	z-index: 2;
+	padding: 1vw 1vw;
+	background: rgba(116,116,116,0.76);
+	margin-top: 0vw;
+	transition: 0.2s;
+}
+
+.imgTitle
+{
+	display: block;
+	width: auto;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 1.4vw;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 0.5vw;
+}
+
+.date
+{
+	display: block;
+	font-family: Bebas Neue;
+	font-size: 1.2vw;
+	text-align: center;
+}
+
+.wrapper:hover
+{
+	transform: scale(1.05);
+}
+
+.wrapper:hover .details
+{
+	margin-top: -7vw;
+}

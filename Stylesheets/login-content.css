@@ -1,0 +1,94 @@
+#wrapper
+{
+	display: none;
+}
+
+#loginSection
+{
+	position: absolute;
+	display: block;
+	width: 100%;
+	background: #2883FF;
+	height: 100vh;
+}
+
+.formTitle
+{
+	font-family: TW Cen MT Bold;
+	font-size: 3vw;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	display: block;
+	width: 99.65vw;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 1vh auto;
+	margin-top: 20vh;
+}
+
+#login
+{
+	background: #FFFFFF;
+	display: block;
+	width: 40vw;
+	margin: 0 auto;
+	padding: 1.5vw 1.5vw;
+	border-radius: 10px;
+}
+
+.label
+{
+	display: inline-block;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	padding: 0.2vw 0.2vw;
+	width: 10vw;
+	margin-left: 3vw;
+}
+
+.inputBox
+{
+	display: inline-block;
+	font-family: Lato-Light;
+	font-size: 1.2vw;
+	padding: 0.3vw 0.3vw;
+	border: 2px solid #7A7A7A;
+	border-radius: 5px;
+	width: 21vw;
+}
+
+#warning
+{
+	display: none;
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 1vw;
+	color: #C40003;
+	letter-spacing: 1px;
+	width: 100%;
+	text-align: center;
+	margin: 1vw 0;
+}
+
+.btn
+{
+	background: #005EF0;
+	padding: 0.7vw 2vw;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1vw;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.1s;
+	margin-top: 2vw;
+}
+
+.btn:last-child
+{
+	float: right;
+}
